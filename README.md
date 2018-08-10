@@ -1,6 +1,9 @@
 # llifvid
 A hack to connect an interactive fiction text adventure game to video playback
 
+
+<img src="screenshot.jpg"/>
+
 ## Overview
 
 After listening to the [Eaten By A Grue podcast:19](http://monsterfeet.com/grue/notes/19) about the 
