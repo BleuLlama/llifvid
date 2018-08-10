@@ -115,6 +115,7 @@ the PC at -1, indicating it's done.
     player play
     
 This sends the "play" command to VLC.  It can send anything. Useful things are:
+
     play    # press play on the current video
     pause   # toggle pause.  Note; it does NOT always pause! just toggle pause!
     frame   # advance one frame.  This DOES always leave VLC in a paused state
