@@ -122,8 +122,28 @@ This sends the "play" command to VLC.  It can send anything. Useful things are:
     stop    # stops the player
     fullscreen on  # makes the video full screen (on|off)
     seek 100 # you can manuall call this as well
+    rate 2   # twice speed... or "0.25" for quarter speed. etc
     add FILENAME   # adds a file to the playlist, and switches to it, playing it
     
 These essentially just print out the command, as the VLC shell is consuming the commands directly.
 
+# Determining match strings
+
+For this I basically ran "frotz hhg.z3" and copy-pasted long lines of text from the game to match that
+seemed unique.  It worked okay but was kinda tedious. 
+
+I was originally going to extract out the room names/descriptions from the z3 files using the tools,
+but gave up on that for this simpler, quicker approach.
+
+# Determining timing
+
+So to get the second counts, I ran VLC, playing the video file, directly: "vlc episode1.m4v", and 
+did a lot of typing in the shell of the above commands.  I would type "play" to let it play, then
+"pause" or "frame" to get it to stop. You can get the current time with "get_time", manually seek
+to specific times like "seek 300" or differences from the current time, "seek -10" for ten seconds
+ago, etc.
+
+I could use the GUI for this, but it shows time as mm:ss rathe than time as seconds only.
+
+It was tedious, but it worked.  An easier to use mechanism for this would be advantageous.
   
