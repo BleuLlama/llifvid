@@ -22,10 +22,10 @@ The whole thing kinda works, is buggy, unoptimized, but that's the nature of a 4
 
 ## Architecture
 
-(insert diagram here)
+<img src="diagram.jpg"/>
 
 This is the basic system... This was a quick sketch I made to get the idea down. Essentially there 
-are two halves.
+are two halves. (I also called it "zvid" instead of "llifvid". pls ign. thx.)
 
 ### Server/Video player
 
